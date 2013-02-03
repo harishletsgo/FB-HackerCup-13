@@ -9,8 +9,8 @@ public class Main
     {
         Reader reader = new Reader(System.in);
         Writer writer = new Writer(System.out, false);
-        //        Reader reader = new Reader("in.txt");
-        //        Writer writer = new Writer(new FileOutputStream("output.txt"), false);
+        //       Reader reader = new Reader("in.txt");
+        //     Writer writer = new Writer(new FileOutputStream("output.txt"), false);
         hackerCupDeadPixels(reader, writer);
 
         reader.close();
@@ -41,7 +41,7 @@ public class Main
             final int c = reader.nextInt();
             final int d = reader.nextInt();
 
-            int[][] monitor = new int[h][w];
+            float[][] monitor = new float[h][w];
 
             int deadX = x;
             int deadY = y;
